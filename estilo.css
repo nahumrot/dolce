@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+.dolce{
+    background-color: #f5c2ff;
+}
+
+btn-primary:hover{
+    color: #fff;
+    background-color: #75adff;
+    border-color: #75adff;
+}
+
+footer{
+    width: 100%;
+    background-color:#f5c2ff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.bi-instagram,
+.bi-whatsapp{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+.bi-instagram:hover{
+    color: #d83bf7;
+}
+.bi-whatsapp:hover{
+    color: #d83bf7;
+}
