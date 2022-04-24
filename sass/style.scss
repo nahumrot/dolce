@@ -1,0 +1,42 @@
+$rosa: #ff91da;
+
+.navbar{
+    background-color: $rosa;
+}
+body{
+    font-family: dosis ;
+}
+h1{
+    color: #930bbd;
+}
+footer{
+    width: 100%;
+    background-color: $rosa;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.anchofoter{
+    margin-top: 30px;
+}
+.redes{
+    display: inline-block;
+}
+.bi-instagram{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #930bbd;
+}
+.bi-instagram:hover{
+    color: black;
+}
+.bi-whatsapp{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #930bbd;
+}
+.bi-whatsapp:hover{
+    color: black;
+}
