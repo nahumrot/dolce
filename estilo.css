@@ -1,0 +1,50 @@
+
+nav{
+    background-color: #fcc5f6;
+}
+
+.btn-primary {
+    color: rgb(3, 3, 3);
+    background-color: #fcc5f6;
+    border-color: #fcc5f6;
+}
+
+.btn-primary :hover {
+    color: #fa66e9;
+}
+
+.container-boton1{
+    position: fixed;
+    z-index: 999;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    bottom: 0%;
+    transition: ease 0.3s;
+}
+
+.botton1 :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.botton2 :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.botton1{
+    width: 100px;
+    transition: ease 1s;
+}
+.botton2{
+    width: 100px;
+    transition: ease 1s;
+}
+
+h3{
+    color: #ac0898;
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
