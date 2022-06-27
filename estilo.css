@@ -3,6 +3,10 @@ nav{
     background-color: #fcc5f6;
 }
 
+body{
+    background-color: white;
+}
+
 .btn-primary {
     color: rgb(3, 3, 3);
     background-color: #fcc5f6;
@@ -47,4 +51,35 @@ h3{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+#prodetails .single-pro-image{
+    width: 30%;
+    margin-right: 10%;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{ 
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+} 
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }
